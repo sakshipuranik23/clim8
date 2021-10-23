@@ -15,7 +15,7 @@ body {
 /* sub sections */
 .triangle {
   position: relative;
-  background: grey;
+  background: black;
   height: 60vh;
 }
 
@@ -27,9 +27,9 @@ body {
   height: 0;
   border-style: solid;
   border-width: 67px 67px 0 67px;
-  border-color: grey transparent transparent transparent;
+  border-color: black transparent transparent transparent;
   left: 50%;
-  transform: translateX(-50%) translateY(100%);
+  transform: translateX(-90%) translateY(100%);
 }
 
 .full-height {
