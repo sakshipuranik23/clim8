@@ -13,6 +13,9 @@ body {
   background: #202731;
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* causes */
 .causes {
