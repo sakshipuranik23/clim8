@@ -7,7 +7,7 @@
     <title>Login</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min."
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css"
     />
   </head>
   <body>
@@ -69,7 +69,7 @@
                 // can be one of 'email' or 'phone_number_sms'
                 identifierType: "email",
                 // Add the API key copied from 2nd step
-                apiKey: "90de89dd-0e2d-444d-bf9f-d13c94920405",
+                apiKey: "APIKEYS_REMOVED",
                 // Add a callback here to handle the payload sent by sdk
                 onSuccess: (payload) => {
                   console.log(payload);
@@ -91,5 +91,6 @@
         </div>
       </div>
     </section>
+    <script src="./config.js"></script>
   </body>
 </html>
